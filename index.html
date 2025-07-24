@@ -1084,8 +1084,7 @@
             const calendlyUrl = `https://calendly.com/bell_hauling/junk-removal?` +
                 `a1=${encodeURIComponent(estimate)}&` +
                 `a2=${encodeURIComponent(totalItemCount)}&` +
-                `a3=${encodeURIComponent('Standard Service')}&` +
-                `a4=${encodeURIComponent(itemDetails.join(', '))}`;
+                `a3=${encodeURIComponent(itemDetails.join(', '))}`;
 
             // Open Calendly booking page with pre-filled data
             window.open(calendlyUrl, '_blank');
